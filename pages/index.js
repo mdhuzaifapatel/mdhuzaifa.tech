@@ -697,7 +697,7 @@ export default function Home({ blogs }) {
               <div className="contact__content">
                 <h3 className="contact__title">Write me your project</h3>
 
-                {/* <form method="POST" data-netlify="true" className="contact__form" name="contact" >
+                <form method="POST" data-netlify="true" className="contact__form" name="contact" >
                   <div className="contact__form-div">
                     <label htmlFor="" className="contact__form-tag" >
                       Name
@@ -736,29 +736,7 @@ export default function Home({ blogs }) {
                   </div>
 
                   <button type="submit" className="button">Send Message</button>
-                </form> */}
-
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-
+                </form>
               </div>
             </div>
           </section>
