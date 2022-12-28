@@ -547,7 +547,7 @@ export default function Home({ blogs }) {
 
                 <h3 className="work__title">CSI Club website</h3>
 
-                <a href="#" className="work__button">
+                <a href="https://csi-kle.netlify.app/" target="_blank" className="work__button">
                   Demo <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
@@ -711,7 +711,7 @@ export default function Home({ blogs }) {
 
                   <div className="contact__form-div">
                     <label htmlFor="" className="contact__form-tag">
-                      E-mail
+                      Email
                     </label>
                     <input
                       type="email"
