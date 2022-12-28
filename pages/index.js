@@ -697,7 +697,7 @@ export default function Home({ blogs }) {
               <div className="contact__content">
                 <h3 className="contact__title">Write me your project</h3>
 
-                <form action="#" className="contact__form">
+                <form method="POST" data-netlify="true" className="contact__form">
                   <div className="contact__form-div">
                     <label htmlFor="" className="contact__form-tag">
                       Name
@@ -734,7 +734,7 @@ export default function Home({ blogs }) {
                     ></textarea>
                   </div>
 
-                  <button className="button">Send Message</button>
+                  <button type="submit" className="button">Send Message</button>
                 </form>
               </div>
             </div>
