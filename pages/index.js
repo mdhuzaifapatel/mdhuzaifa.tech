@@ -697,15 +697,15 @@ export default function Home({ blogs }) {
               <div className="contact__content">
                 <h3 className="contact__title">Write me your project</h3>
 
-                <form method="POST" data-netlify="true" className="contact__form">
+                <form method="POST" data-netlify="true" className="contact__form" name="contact" onSubmit="submit">
                   <div className="contact__form-div">
-                    <label htmlFor="" className="contact__form-tag">
+                    <label htmlFor="" className="contact__form-tag" >
                       Name
                     </label>
                     <input
                       type="text"
                       placeholder="Insert your name"
-                      className="contact__form-input"
+                      className="contact__form-input" name="name"
                     />
                   </div>
 
@@ -717,6 +717,7 @@ export default function Home({ blogs }) {
                       type="email"
                       placeholder="Insert your email"
                       className="contact__form-input"
+                      name="email"
                     />
                   </div>
 
@@ -727,7 +728,7 @@ export default function Home({ blogs }) {
                     <textarea
                       className="contact__form-input"
                       placeholder="Write your project"
-                      name=""
+                      name="message"
                       id=""
                       cols="30"
                       rows="10"
