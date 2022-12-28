@@ -697,7 +697,7 @@ export default function Home({ blogs }) {
               <div className="contact__content">
                 <h3 className="contact__title">Write me your project</h3>
 
-                <form method="POST" data-netlify="true" className="contact__form" name="contact" >
+                <form action="POST" data-netlify="true" className="contact__form" name="contact" >
                   <div className="contact__form-div">
                     <label htmlFor="" className="contact__form-tag" >
                       Name
