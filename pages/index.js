@@ -22,6 +22,8 @@ export default function Home({ blogs }) {
             content="width=device-width, initial-scale=1.0"
           />
 
+<meta name="google-site-verification" content="Pw0ADEElUxMuMT1sscjTUGBo_0xPXqiMYYYENwO1xl8" />
+
           <link
             rel="icon"
             href="/assets/img/aa.ico"
