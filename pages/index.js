@@ -9,7 +9,6 @@ export default function Home({ blogs }) {
   return (
     <>
       <>
-
         <Script src="assets/js/main.js"></Script>
         <script src="assets/js/mixitup.min.js"></script>
         <script src="assets/js/scrollreveal.min.js"></script>
@@ -22,13 +21,12 @@ export default function Home({ blogs }) {
             content="width=device-width, initial-scale=1.0"
           />
 
-<meta name="google-site-verification" content="Pw0ADEElUxMuMT1sscjTUGBo_0xPXqiMYYYENwO1xl8" />
-
-          <link
-            rel="icon"
-            href="/assets/img/aa.ico"
-            type="image/x-icon"
+          <meta
+            name="google-site-verification"
+            content="Pw0ADEElUxMuMT1sscjTUGBo_0xPXqiMYYYENwO1xl8"
           />
+
+          <link rel="icon" href="/assets/img/aa.ico" type="image/x-icon" />
 
           <link
             href="/unpkg.com/boxicons%402.1.2/css/boxicons.min.css"
@@ -38,7 +36,7 @@ export default function Home({ blogs }) {
           <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
 
           <link rel="stylesheet" href="/assets/css/styles.css" />
-          
+
           <title>{"Md Huzaifa {••}"}</title>
         </Head>
 
@@ -115,11 +113,7 @@ export default function Home({ blogs }) {
               </div>
 
               <div className="home__handle">
-                <img
-                  className="home__img"
-                  src="/assets/img/logo.png"
-                  alt=""
-                />
+                <img className="home__img" src="/assets/img/logo.png" alt="" />
               </div>
               <div className="home__social">
                 <a
@@ -181,9 +175,18 @@ export default function Home({ blogs }) {
                 </div>
 
                 <p className="about__description">
-                I am an aspiring developer, currently pursuing my B.E in Electronics & Communication (2023). 
-                <br /> <br /> I love programming and developing websites. Interested in Full Stack Software Development
-                <br /> and Web Development. <br /> <br /> Especially active on <a className="hacker" href="https://www.hackerrank.com/mdhuzaifapatel" target="_blank" >HackerRank!</a> 
+                  I am an aspiring developer, currently pursuing my B.E in
+                  Electronics & Communication (2023).
+                  <br /> <br /> I love programming and developing websites.
+                  Interested in Full Stack Software Development
+                  <br /> and Web Development. <br /> <br /> Especially active on{" "}
+                  <a
+                    className="hacker"
+                    href="https://www.hackerrank.com/mdhuzaifapatel"
+                    target="_blank"
+                  >
+                    HackerRank!
+                  </a>
                 </p>
 
                 <a href="#contact" className="button">
@@ -345,7 +348,9 @@ export default function Home({ blogs }) {
                 <div className="services__modal">
                   <div className="services__modal-content">
                     <i className="bx bx-x services__modal-close"></i>
-                    <h3 className="services__modal-title">Frontend Development</h3>
+                    <h3 className="services__modal-title">
+                      Frontend Development
+                    </h3>
                     <p className="services__modal-description">
                       What I can provide at the frontend?
                     </p>
@@ -361,14 +366,14 @@ export default function Home({ blogs }) {
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                        I develop the interactive user interface.
+                          I develop the interactive user interface.
                         </p>
                       </li>
 
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                        Mobile-first design.
+                          Mobile-first design.
                         </p>
                       </li>
 
@@ -403,30 +408,34 @@ export default function Home({ blogs }) {
                 <div className="services__modal">
                   <div className="services__modal-content">
                     <i className="bx bx-x services__modal-close"></i>
-                    <h3 className="services__modal-title">Backend Development</h3>
+                    <h3 className="services__modal-title">
+                      Backend Development
+                    </h3>
                     <p className="services__modal-description">
-                    What I can provide at the backend?
+                      What I can provide at the backend?
                     </p>
 
                     <ul className="services__modal-list">
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                          Backend development using NodeJS, ExpressJS, MySQL, etc.
+                          Backend development using NodeJS, ExpressJS, MySQL,
+                          etc.
                         </p>
                       </li>
 
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                         Python & Flask Framework.
+                          Python & Flask Framework.
                         </p>
                       </li>
 
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
-                          Develop CMS (Content Management System) using Sanity, Strapi, etc.
+                          Develop CMS (Content Management System) using Sanity,
+                          Strapi, etc.
                         </p>
                       </li>
 
@@ -467,7 +476,7 @@ export default function Home({ blogs }) {
                     </p>
 
                     <ul className="services__modal-list">
-                    <li className="services__modal-item">
+                      <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="services__modal-info">
                           Photoshop, Premeire Pro, After Effects
@@ -482,9 +491,7 @@ export default function Home({ blogs }) {
 
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
-                        <p className="services__modal-info">
-                          Video editing.
-                        </p>
+                        <p className="services__modal-info">Video editing.</p>
                       </li>
 
                       <li className="services__modal-item">
@@ -539,7 +546,11 @@ export default function Home({ blogs }) {
 
                 <h3 className="work__title">Coding Club website</h3>
 
-                <a href="https://codefellas.tech" target="_blank" className="work__button">
+                <a
+                  href="https://codefellas.tech"
+                  target="_blank"
+                  className="work__button"
+                >
                   Demo <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
@@ -549,7 +560,11 @@ export default function Home({ blogs }) {
 
                 <h3 className="work__title">CSI Club website</h3>
 
-                <a href="https://csi-kle.netlify.app/" target="_blank" className="work__button">
+                <a
+                  href="https://csi-kle.netlify.app/"
+                  target="_blank"
+                  className="work__button"
+                >
                   Demo <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
@@ -559,7 +574,11 @@ export default function Home({ blogs }) {
 
                 <h3 className="work__title">Virtual Mouse</h3>
 
-                <a href="https://drive.google.com/file/d/1ZTCaq1JF1Wmf90i8qvL8tw0_dadI3ebp/view" className="work__button" target="_blank">
+                <a
+                  href="https://drive.google.com/file/d/1ZTCaq1JF1Wmf90i8qvL8tw0_dadI3ebp/view"
+                  className="work__button"
+                  target="_blank"
+                >
                   Demo <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
@@ -569,7 +588,10 @@ export default function Home({ blogs }) {
 
                 <h3 className="work__title">Student Management System</h3>
 
-                <a href="https://github.com/mdhuzaifapatel/Student-Management-System" className="work__button">
+                <a
+                  href="https://github.com/mdhuzaifapatel/Student-Management-System"
+                  className="work__button"
+                >
                   Demo <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
@@ -579,7 +601,10 @@ export default function Home({ blogs }) {
 
                 <h3 className="work__title">Library App</h3>
 
-                <a href="#" className="work__button">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.kle.library"
+                  className="work__button"
+                >
                   Demo <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
@@ -682,7 +707,9 @@ export default function Home({ blogs }) {
                   <div className="contact__card">
                     <i className="bx bxl-linkedin contact__card-icon"></i>
                     <h3 className="contact__card-title">LinkedIn</h3>
-                    <span className="contact__card-data">Muhammad Huzaifa Patel</span>
+                    <span className="contact__card-data">
+                      Muhammad Huzaifa Patel
+                    </span>
 
                     <a
                       href="https://www.linkedin.com/in/muhammad-huzaifa-patel/"
@@ -699,15 +726,22 @@ export default function Home({ blogs }) {
               <div className="contact__content">
                 <h3 className="contact__title">Write me your project</h3>
 
-                <form method="POST" data-netlify="true" className="contact__form" name="contact" >
+                <form
+                  method="POST"
+                  data-netlify="true"
+                  className="contact__form"
+                  name="contact"
+                >
                   <div className="contact__form-div">
-                    <label htmlFor="" className="contact__form-tag" >
+                    <label htmlFor="" className="contact__form-tag">
                       Name
                     </label>
                     <input
                       type="text"
                       placeholder="Insert your name"
-                      className="contact__form-input" name="name" required
+                      className="contact__form-input"
+                      name="name"
+                      required
                     />
                   </div>
 
@@ -719,7 +753,8 @@ export default function Home({ blogs }) {
                       type="email"
                       placeholder="Insert your email"
                       className="contact__form-input"
-                      name="email" required
+                      name="email"
+                      required
                     />
                   </div>
 
@@ -737,7 +772,9 @@ export default function Home({ blogs }) {
                     ></textarea>
                   </div>
 
-                  <button type="submit" className="button">Send Message</button>
+                  <button type="submit" className="button">
+                    Send Message
+                  </button>
                 </form>
               </div>
             </div>
@@ -790,13 +827,12 @@ export default function Home({ blogs }) {
             </ul>
 
             <span className="footer__copy">
-            Copyright © 2022. All Rights Reserved.
-            <br />
-            Developed with ❤️ by me. 
+              Copyright © 2022. All Rights Reserved.
+              <br />
+              Developed with ❤️ by me.
             </span>
           </div>
         </footer>
-        
       </>
     </>
   );
