@@ -737,7 +737,7 @@ export default function Home({ blogs }) {
                 </div>
               </div>
 
-              <div className="contact__content">
+              {/* <div className="contact__content">
                 <h3 className="contact__title">Write me your project</h3>
 
                 <form
@@ -790,7 +790,7 @@ export default function Home({ blogs }) {
                     Send Message
                   </button>
                 </form>
-              </div>
+              </div> */}
             </div>
           </section>
         </main>
