@@ -554,6 +554,19 @@ export default function Home({ blogs }) {
                   Demo <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
+              <div className="work__card mix web">
+                <img src="/assets/img/work6.jpg" alt="" className="work__img" />
+
+                <h3 className="work__title">Invento website</h3>
+
+                <a
+                  href="https://invento-kle.netlify.app/"
+                  target="_blank"
+                  className="work__button"
+                >
+                  Demo <i className="bx bx-right-arrow-alt work__icon"></i>
+                </a>
+              </div>
 
               <div className="work__card mix web">
                 <img src="/assets/img/work2.jpg" alt="" className="work__img" />
