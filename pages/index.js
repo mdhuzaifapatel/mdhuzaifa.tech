@@ -841,7 +841,7 @@ export default function Home({ blogs }) {
             </ul>
 
             <span className="footer__copy">
-              Copyright © 2022. All Rights Reserved.
+              Copyright © 2023. All Rights Reserved.
               <br />
               Developed with ❤️ by me.
             </span>
